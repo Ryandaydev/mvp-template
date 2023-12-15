@@ -74,10 +74,10 @@ window.onload = function() {
   
   // Build a system
   const ui = SwaggerUIBundle({
-    url: "openapi.json",
+    url: "swagger_petstore.yml",
     dom_id: '#swagger-ui',
     deepLinking: true,
-    validatorUrl: "none",
+    validatorUrl: "",
     presets: [
       SwaggerUIBundle.presets.apis,
       SwaggerUIStandalonePreset
