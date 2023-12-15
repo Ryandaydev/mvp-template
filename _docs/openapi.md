@@ -3,6 +3,10 @@ title: OpenAPI reference example
 permalink: /docs/openapi/
 ---
 
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+
 [Use this page if you prefer to use [Swagger UI](https://github.com/swagger-api/swagger-ui) to render your reference documentation instead of creating Markdown files.
 
 Here's what you'll need to do:
