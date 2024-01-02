@@ -21,6 +21,6 @@ The example spec used here is based on the [petstore-expanded.json](https://gith
 
 <div class="intrinsic-container">
 
-	<iframe src="/mvp-template/dist/"></iframe>
+	<iframe src="/sample-dev-portal/dist/"></iframe>
 
 </div>
