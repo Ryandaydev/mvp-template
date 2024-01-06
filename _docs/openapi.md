@@ -3,7 +3,7 @@ title: OpenAPI reference example
 permalink: /docs/openapi/
 ---
 
-DOCS UPDATE 3:44PM
+DOCS UPDATE 3:50pm
 
 
 <!-- <div class="intrinsic-container">
@@ -13,8 +13,10 @@ DOCS UPDATE 3:44PM
 </div> -->
 <!-- override one css item-->
 <style type="text/css" rel="stylesheet">
-pre {
-    background-color: none;
+.swagger-ui pre {
+    background-color: transparent;
+    border: none;
+}
 
 </style>
 
