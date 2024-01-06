@@ -29,7 +29,7 @@ The example spec used here is based on the [petstore-expanded.json](https://gith
 <script>
   window.onload = () => {
     window.ui = SwaggerUIBundle({
-      url: 'openapi.json',
+      url: 'openapi2.json',
       dom_id: '#swagger-ui',
     });
   };
