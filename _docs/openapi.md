@@ -24,12 +24,12 @@ The example spec used here is based on the [petstore-expanded.json](https://gith
 	<iframe src="/sample-dev-portal/dist/"></iframe>
 
 </div> -->
-<div id="swagger-ui"></div>
+<div id="swagger-ui" class="intrinsic-container"></div>
 <script src="https://unpkg.com/swagger-ui-dist@4.5.0/swagger-ui-bundle.js" crossorigin></script>
 <script>
   window.onload = () => {
     window.ui = SwaggerUIBundle({
-      url: 'https://petstore3.swagger.io/api/v3/openapi.json',
+      url: 'openapi.json',
       dom_id: '#swagger-ui',
     });
   };
