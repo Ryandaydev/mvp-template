@@ -3,8 +3,9 @@ title: OpenAPI reference example
 permalink: /docs/openapi/
 ---
 
-DOCS UPDATE 3:28PM
+<link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@4.5.0/swagger-ui.css" />
 
+DOCS UPDATE 3:31PM
 
 
 <!-- <div class="intrinsic-container">
