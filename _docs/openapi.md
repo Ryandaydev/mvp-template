@@ -19,8 +19,18 @@ To change formatting for the iframe, edit the `.intrinsic-container` and `.intri
 
 The example spec used here is based on the [petstore-expanded.json](https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/json/petstore-expanded.json) example from the [OpenAPI Specification Repository](https://github.com/OAI/OpenAPI-Specification).]
 
-<div class="intrinsic-container">
+<!-- <div class="intrinsic-container">
 
 	<iframe src="/sample-dev-portal/dist/"></iframe>
 
-</div>
+</div> -->
+<div id="swagger-ui"></div>
+<script src="https://unpkg.com/swagger-ui-dist@4.5.0/swagger-ui-bundle.js" crossorigin></script>
+<script>
+  window.onload = () => {
+    window.ui = SwaggerUIBundle({
+      url: 'https://petstore3.swagger.io/api/v3/openapi.json',
+      dom_id: '#swagger-ui',
+    });
+  };
+</script>
