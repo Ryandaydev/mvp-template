@@ -28,6 +28,7 @@ DOCS UPDATE 3:50pm
     window.ui = SwaggerUIBundle({
       url: '/sample-dev-portal/openapi2.json',
       dom_id: '#swagger-ui',
+	supportedSubmitMethods: []     
     });
   };
 </script>
